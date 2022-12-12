@@ -212,9 +212,7 @@ There was a significant decrease in the amount of time it took to run the defact
 
 ### Original Code
 
-![image](https://user-images.githubusercontent.com/118394620/207175437-04b6fa53-b590-4cf0-9269-3ab832548f62.png)
-
-
+![image](https://user-images.githubusercontent.com/118394620/207175982-2e71b38a-f9e6-49b7-a5d7-eafa1753bebe.png)
 
 ![image](https://user-images.githubusercontent.com/118394620/207172257-29b13f2b-b3e7-42b5-aefa-b607f8162e1c.png)
 
