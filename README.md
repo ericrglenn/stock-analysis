@@ -6,3 +6,4 @@ The purpose of the Green Stocks Analysis is to utilize VBA to create a report to
 
 ### Background
 
+A good friend Steve recently graduated with a degree in finance,  and is ready to help his 1st clients,  his parents.  Steve's parents are interested in investing in green stocks (eco friendly),  and has asked me to assist with creating a report to track volume and return on investment for a specific list of stocks. Initially Steve's parents were only interested in 1 particular stock, DAQO New Energy Corporation, but Steve feels they should be more diversified and has asked that the report include a list of stocks that he has provided.
