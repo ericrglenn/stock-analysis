@@ -206,6 +206,25 @@ The code is easier to read,  which in turn makes finding bugs in the code much f
 
 During the refractoring process it's possible to adjust the code in such a way that the program no longer runs,  or produces an inaccurate output. 
 
+#### Results of refactoring the Green Stocks Analysis
+
+There was a significant decrease in the amount of time it took to run the defactored code versus the original code. 
+
+### Original Code
+
+
+
+### Refractored Code
+
+![image](https://user-images.githubusercontent.com/118394620/207168708-1a9f303d-fb1a-4bfd-b618-b7d0e93e71c1.png)
+
+![image](https://user-images.githubusercontent.com/118394620/207168820-ae12e467-864f-4c0b-830c-c9ce26b3467c.png)
+
+
+
+
+
+
 
 
 
