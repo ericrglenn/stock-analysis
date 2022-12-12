@@ -6,11 +6,11 @@ The purpose of the Green Stocks Analysis is to utilize VBA to create a report to
 
 ## Background
 
-A good friend Steve recently graduated with a degree in finance,  and is ready to help his 1st clients,  his parents.  Steve's parents are interested in investing in green stocks (eco friendly),  and has asked me to assist with creating a report to track volume and return on investment for a specific list of stocks. Initially Steve's parents were only interested in 1 particular stock, DAQO New Energy Corporation, but Steve feels their portfolio should be more diversified and has asked that the report include a list of stocks that he has provided.
+A good friend Steve recently graduated with a degree in finance,  and is ready to help his 1st clients,  his parents.  Steve's parents are interested in investing in green stocks (eco friendly),  and Steve has asked me to assist with creating a report to track volume and return on investment for a specific list of stocks. Initially Steve's parents were only interested in 1 particular stock, DAQO New Energy Corporation, but Steve feels their portfolio should be more diversified and has asked that the report include a list of stocks that he has provided.
 
 ## Results
 
-The original VBA code was refactored to make it more efficient by implementing a new array that stores the tickers volume, starting price and ending price. In addition an index (tickerIndex) was created to match the ticker's performance to the tickerIndex. For loops are then run which cycles through all the rows and in turn creates the output on the All Stocks Analysis tab for each stock in the list. The results of the analysis was also formatted to more easily identify stocks that are performing well versus those that are not.
+The original VBA code was refactored to make it more efficient by implementing a new array that stores the tickers volume, starting price and ending price. In addition an index (tickerIndex) was created to match the ticker's performance to the tickerIndex. For loops are then run, which cycles through all rows in the perspective sheet and in turn creates the output on the All Stocks Analysis tab for each stock in the list. The results of the analysis was also formatted to more easily identify stocks that are performing well versus those that are not.
 
 #### Refactored VBA:
 
@@ -204,7 +204,7 @@ The code is easier to read,  which in turn makes finding bugs in the code much f
 
 #### Disadvantages of Refactoring Code
 
-During the refractoring process it's possible to adjust the code in such a way that the program no longer runs,  or produces an inaccurate output. 
+During the refractoring process it's possible to adjust the code in such a way that the program no longer runs,  or produces an inaccurate output. The refractoring process could potentially cause the new code to run slower than code prior to being refractored.
 
 #### Results of refactoring the Green Stocks Analysis
 
