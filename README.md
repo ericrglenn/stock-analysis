@@ -1,18 +1,18 @@
 # Green Stocks Analysis
 
-### Purpose
+## Purpose
 
 The purpose of the Green Stocks Analysis is to utilize VBA to create a report to track the volume and return on investment (ROI) for a list of eco friendly stocks. The report is to include buttons which will make executing the macros easy for anyone to use, regardless of experience level. 
 
-### Background
+## Background
 
 A good friend Steve recently graduated with a degree in finance,  and is ready to help his 1st clients,  his parents.  Steve's parents are interested in investing in green stocks (eco friendly),  and has asked me to assist with creating a report to track volume and return on investment for a specific list of stocks. Initially Steve's parents were only interested in 1 particular stock, DAQO New Energy Corporation, but Steve feels their portfolio should be more diversified and has asked that the report include a list of stocks that he has provided.
 
-### Results
+## Results
 
-The original VBA code was refactored to make it more efficient by implementing a new array that stores the tickers volume, starting price and ending price. In addition an index (tickerIndex) was created to match the ticker's performance to the tickerIndex. For loops are then run which cycles through all the rows and in turn creates the output on the All Stocks Analysis tab. 
+The original VBA code was refactored to make it more efficient by implementing a new array that stores the tickers volume, starting price and ending price. In addition an index (tickerIndex) was created to match the ticker's performance to the tickerIndex. For loops are then run which cycles through all the rows and in turn creates the output on the All Stocks Analysis tab for each stock in the list. The results of the analysis was also formatted to more easily identify stocks that are performing well versus those that are not.
 
-##### Refactored VBA:
+#### Refactored VBA:
 
 Sub AllStocksAnalysisRefactored()
 
@@ -183,5 +183,29 @@ Sub AllStocksAnalysisRefactored()
     MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 
 End Sub
+
+##### Results of Analysis
+
+All Stocks (2018)		
+		
+![image](https://user-images.githubusercontent.com/118394620/207166037-b65eb6cf-698f-4456-8be9-70e3ef213815.png)
+
+
+All Stocks (2017)		
+		
+![image](https://user-images.githubusercontent.com/118394620/207166117-612f8e90-eeba-49f0-ac7f-6a0ae87869e8.png)
+
+
+## Summary
+
+#### Advantages of Refactoring Code
+
+The code is easier to read,  which in turn makes finding bugs in the code much faster.  The code is also condensed so that you are not repeating any code already written.  Refactoring also helps you to better understand the code and think about how it is working on a higher level. 
+
+#### Disadvantages of Refactoring Code
+
+During the refractoring process it's possible to adjust the code in such a way that the program no longer runs,  or produces an inaccurate output. 
+
+
 
 
